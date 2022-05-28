@@ -1,0 +1,49 @@
+.card {
+  border: 1px solid;
+  width: 25%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: tan;
+}
+#addItem {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: rgb(251, 217, 172);
+  margin: 3px 10px;
+  padding: 5px;
+}
+.storeCont {
+  background-color: rgb(229, 216, 198);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  align-content: flex-start;
+}
+.card img {
+  width: 30%;
+}
+.videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-start;
+  background-color: rgb(229, 216, 198);
+  height: 100%;
+  flex-wrap: wrap;
+}
+.videos iframe {
+  width: 33%;
+  height: 25%;
+}
